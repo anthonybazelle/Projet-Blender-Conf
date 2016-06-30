@@ -1,6 +1,5 @@
 #pragma once
 
-
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////// PROTOTYPE 1 /////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -59,7 +58,8 @@ int main ( int argc, char **argv )
 	vector<vector<Point> > contours;
 	vector<Vec4i> hierarchy;
 
-	int mark,A,B,C,top,right,bottom,median1,median2,outlier;
+	int mark,A,B,top,right,bottom,median1,median2,outlier;
+	int C = 0;																	// Problème variable C, jamais initialisée sans cette ligne
 	float AB,BC,CA, dist,slope, areat,arear,areab, large, padding;
 	
 	int align,orientation;
@@ -134,7 +134,7 @@ int main ( int argc, char **argv )
 			// Vertex of the triangle NOT involved in the longest side is the 'outlier'
 
 			AB = cv_distance(mc[A],mc[B]);
-			BC = cv_distance(mc[B],mc[C]); // PROBLEME ICI INITIALISATION
+			BC = cv_distance(mc[B],mc[C]); 
 			CA = cv_distance(mc[C],mc[A]);
 			
 			if ( AB > BC && AB > CA )
