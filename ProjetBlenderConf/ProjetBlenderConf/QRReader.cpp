@@ -1,4 +1,5 @@
 #pragma once
+
 #include "opencv2/core/core.hpp"
 #include "opencv2/highgui/highgui.hpp"
 #include <opencv2/imgproc/imgproc.hpp>
@@ -21,7 +22,6 @@ class CQRReader
 
 	bool CQRReader::Find(Mat img)
 	{
-
 		//This function takes in an image to scan and returns true if it found a QR code. You can use the class functions to access information about most recent QR code (location, orientation, etc).
 		//Earlier, I mentioned the the detector goes through each line. You could do that, but it turns out that scanning every third line makes it work quite as too. So I’ve introduced a new variable skipRows that you can tweak:
 
@@ -113,7 +113,6 @@ class CQRReader
 								}
 
 		//And other than that, here’s what we gotta do:
-
 								currentState = 0;
 								stateCount[0] = 0;
 								stateCount[1] = 0;

@@ -1,31 +1,8 @@
-﻿La génération a démarré 30/06/2016 14:37:03.
+﻿La génération a démarré 03/07/2016 18:33:45.
      1>Projet "C:\Users\User\Documents\ESGI\3A DJV\PROJET BLENDER CONFERENCE\ProjetBlenderConf\ProjetBlenderConf\ProjetBlenderConf.vcxproj" sur le nœud 2 (Build cible(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
          Main.cpp
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(93): warning C4018: '<' : incompatibilité signed/unsigned
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(95): warning C4244: 'argument' : conversion de 'double' en 'float', perte possible de données
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(106): warning C4018: '<' : incompatibilité signed/unsigned
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(196): warning C4018: '<' : incompatibilité signed/unsigned
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(224): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(225): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(226): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(63): warning C4101: 'areat' : variable locale non référencée
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(63): warning C4101: 'large' : variable locale non référencée
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(63): warning C4101: 'arear' : variable locale non référencée
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(63): warning C4101: 'areab' : variable locale non référencée
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(63): warning C4101: 'padding' : variable locale non référencée
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(194): warning C4101: 'area_bottom' : variable locale non référencée
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(194): warning C4101: 'area_right' : variable locale non référencée
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(194): warning C4101: 'area_top' : variable locale non référencée
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(395): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(396): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(398): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(399): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(426): warning C4018: '<' : incompatibilité signed/unsigned
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(453): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(454): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
-     1>c:\users\user\documents\esgi\3a djv\projet blender conference\projetblenderconf\projetblenderconf\main.cpp(456): warning C4018: '<' : incompatibilité signed/unsigned
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\ESGI\3A DJV\PROJET BLENDER CONFERENCE\ProjetBlenderConf\Debug\ProjetBlenderConf.exe" /INCREMENTAL /NOLOGO opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\User\Documents\ESGI\3A DJV\PROJET BLENDER CONFERENCE\ProjetBlenderConf\Debug\ProjetBlenderConf.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\ESGI\3A DJV\PROJET BLENDER CONFERENCE\ProjetBlenderConf\Debug\ProjetBlenderConf.lib" /MACHINE:X86 Debug\Main.obj
          Debug\QRReader.obj
@@ -34,4 +11,4 @@
 
 La génération a réussi.
 
-Temps écoulé 00:00:01.66
+Temps écoulé 00:00:01.54
