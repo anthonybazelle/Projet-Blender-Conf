@@ -1,14 +1,14 @@
 from OpenGL.GL import *
 from OpenGL.GLUT import *
 from OpenGL.GLU import *
+import cv2
 from PIL import Image
 import numpy as np
 from webcam import Webcam
 from glyphs import Glyphs
 from objloader import *
 from constants import *
-import cv2
-
+ 
 class OpenGLGlyphs:
   
     # constants
@@ -44,8 +44,8 @@ class OpenGLGlyphs:
         glMatrixMode(GL_MODELVIEW)
          
         # assign shapes
-        self.cone = OBJ('exemple.obj')
-        #self.sphere = OBJ('sphere.obj')
+        self.cone = OBJ('cone.obj')
+        self.sphere = OBJ('sphere.obj')
  
         # assign texture
         glEnable(GL_TEXTURE_2D)
@@ -63,7 +63,7 @@ class OpenGLGlyphs:
         bg_image = Image.fromarray(bg_image)     
         ix = bg_image.size[0]
         iy = bg_image.size[1]
-        bg_image = bg_image.tostring("raw", "BGRX", 0, -1)
+        bg_image = bg_image.tobytes("raw", "BGRX", 0, -1)
   
         # create background texture
         glBindTexture(GL_TEXTURE_2D, self.texture_background)
@@ -118,8 +118,8 @@ class OpenGLGlyphs:
  
             if glyph_name == SHAPE_CONE:
                 glCallList(self.cone.gl_list)
-           # elif glyph_name == SHAPE_SPHERE:
-           #     glCallList(self.sphere.gl_list)
+            elif glyph_name == SHAPE_SPHERE:
+                glCallList(self.sphere.gl_list)
  
             glPopMatrix()
  
